@@ -1,0 +1,234 @@
+/*XL and Above View*/
+
+body{
+  background-image: url(/img/dark-wood.jpg);
+  width: 100%;
+  height: auto;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 30%;
+  margin-bottom: 45%;
+}
+
+h1{
+  font-family: Great Vibes;
+  font-weight: bold;
+  font-size: 10em;
+}
+
+.panel{
+  margin-bottom: 3em;
+  box-shadow: 0 0 1em black;
+}
+
+.panel > .panel-heading{
+  padding: 0px;
+  border: 0px;
+}
+
+.panel-body h5{
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+p{
+  font-size: 0.9em;
+}
+
+#bio .panel{
+  background-color: oldlace;
+  box-shadow: 0 0 2em oldlace;
+}
+
+#clown .panel-heading{
+  box-shadow: 0 0 2em lime;
+}
+
+#clown .panel-body{
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 2em red;
+}
+
+#clown h5{
+  color: white;
+}
+
+#blog .panel-body{
+  background-color: whitesmoke;
+  box-shadow: 0 0 2em whitesmoke;
+}
+
+#bootstrap .panel-body{
+  color: white;
+  background-color: mediumseagreen;
+  box-shadow: 0 0 2em mediumseagreen;
+}
+
+#bootstrap h5{
+  color: white;
+}
+
+#dice .panel-body{
+  box-shadow: 0 0 2em white;
+}
+
+#dom .panel-body{
+  box-shadow: 0 0 2em white;
+}
+
+.email img{
+  width: 5%;
+  height: 5%;
+  margin-left: 3em;
+}
+
+.resume img{
+  margin-left: 5em;
+  width: 5%;
+  height: 5%;
+}
+
+.linkedin img{
+  margin-left: 5em;
+  width: 5%;
+  height: 5%;
+}
+
+.facebook img{
+  margin-left: 5em;
+  width: 5%;
+  height: 5%;
+}
+
+.instagram img{
+  margin-left: 5em;
+  width: 5%;
+  height: 5%;
+}
+
+/*Large Screen View*/
+@media (min-width: 992px) and (max-width: 1200px){
+
+  h1{
+    font-family: Great Vibes;
+    font-weight: bold;
+    font-size: 8em;
+  }
+
+  .email img{
+    width: 5%;
+    height: 5%;
+    margin-left: 3em;
+  }
+
+  .resume img{
+    margin-left: 3em;
+    width: 5%;
+    height: 5%;
+  }
+
+  .linkedin img{
+    margin-left: 3em;
+    width: 5%;
+    height: 5%;
+  }
+
+  .facebook img{
+    margin-left: 3em;
+    width: 5%;
+    height: 5%;
+  }
+
+  .instagram img{
+    margin-left: 3em;
+    width: 5%;
+    height: 5%;
+  }
+}
+
+/*Medium Screen View*/
+@media (min-width: 641px) and (max-width: 991px){
+
+  h1{
+    font-family: Great Vibes;
+    font-weight: bold;
+    font-size: 7em;
+  }
+
+  .email img{
+    width: 5%;
+    height: 5%;
+    margin-left: 5em;
+  }
+
+  .resume img{
+    margin-left: 5em;
+    width: 5%;
+    height: 5%;
+  }
+
+  .linkedin img{
+    margin-left: 5em;
+    width: 5%;
+    height: 5%;
+  }
+
+  .facebook img{
+    margin-left: 5em;
+    width: 5%;
+    height: 5%;
+  }
+
+  .instagram img{
+    margin-left: 5em;
+    width: 5%;
+    height: 5%;
+  }
+}
+
+/*Medium Screen View*/
+@media (min-width: 400px) and (max-width: 572px){
+
+  h1{
+    font-family: Great Vibes;
+    font-weight: bold;
+    font-size: 6em;
+  }
+
+  .email img{
+    width: 10%;
+    height: 10%;
+    margin-left: 1.5em;
+  }
+
+  .resume img{
+    margin-left: 1.9em;
+    width: 10%;
+    height: 10%;
+  }
+
+  .linkedin img{
+    margin-left: 1.9em;
+    width: 10%;
+    height: 10%;
+  }
+
+  .facebook img{
+    margin-left: 1.9em;
+    width: 10%;
+    height: 10%;
+  }
+
+  .instagram img{
+    margin-left: 1.5em;
+    width: 10%;
+    height: 10%;
+  }
+}
