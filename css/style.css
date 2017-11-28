@@ -1,7 +1,7 @@
 /*XL and Above View*/
 
 body{
-  background-image: url(./img/dark-wood.jpg);
+  background-image: url(/img/dark-wood.jpg);
   width: 100%;
   height: auto;
 }
@@ -60,12 +60,12 @@ p{
   color: white;
 }
 
-#blog .panel-body{
+#blog .panel{
   background-color: whitesmoke;
   box-shadow: 0 0 2em whitesmoke;
 }
 
-#bootstrap .panel-body{
+#bootstrap .panel{
   color: white;
   background-color: mediumseagreen;
   box-shadow: 0 0 2em mediumseagreen;
@@ -75,11 +75,11 @@ p{
   color: white;
 }
 
-#dice .panel-body{
+#dice .panel{
   box-shadow: 0 0 2em white;
 }
 
-#dom .panel-body{
+#dom .panel{
   box-shadow: 0 0 2em white;
 }
 
