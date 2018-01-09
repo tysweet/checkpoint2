@@ -129,13 +129,11 @@ p{
   width: 40%;
   margin: auto;
   padding: 1em;
-  background-color: white;
-  box-shadow: 0 0 2em white;
 }
 
 .email{
   margin: auto;
-  width: 2em;
+  width: 2.4em;
   position: relative;
 }
 
@@ -200,7 +198,7 @@ footer{
   }
 
   .email{
-    width: 2.5em;
+    width: 2.9em;
   }
 
   .resume{
