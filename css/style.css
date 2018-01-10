@@ -28,7 +28,6 @@ h1{
   width: 100%;
   background-color: rgba(20, 20, 20, 0.5);
   z-index: 1;
-  /* overflow: hidden; */
 }
 
 .sticky + .content{
@@ -193,10 +192,6 @@ footer{
     font-size: 7em;
     text-align: center;
   }
-
-  /* .sticky {
-    width: 90%;
-  } */
 
   .social{
     width: 60%;
