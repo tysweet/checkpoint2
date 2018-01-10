@@ -152,7 +152,7 @@ p{
 
 .facebook{
   margin: auto;
-  width: 2.5em;
+  width: 2.6em;
   position: relative;
 }
 
@@ -194,9 +194,9 @@ footer{
     text-align: center;
   }
 
-  .sticky {
+  /* .sticky {
     width: 90%;
-  }
+  } */
 
   .social{
     width: 60%;
@@ -215,11 +215,11 @@ footer{
   }
 
   .facebook{
-    width: 3em;
+    width: 3.1em;
   }
 
   .instagram{
-    width: 3em;
+    width: 2.9em;
   }
 }
 
