@@ -194,6 +194,10 @@ footer{
     text-align: center;
   }
 
+  .sticky {
+    width: 90%;
+  }
+
   .social{
     width: 60%;
   }
