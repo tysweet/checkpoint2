@@ -146,13 +146,13 @@ p{
 
 .linkedin{
   margin: auto;
-  width: 2.3em;
+  width: 2.4em;
   position: relative;
 }
 
 .facebook{
   margin: auto;
-  width: 2.2em;
+  width: 2.5em;
   position: relative;
 }
 
@@ -211,11 +211,11 @@ footer{
   }
 
   .linkedin{
-    width: 2.8em;
+    width: 2.9em;
   }
 
   .facebook{
-    width: 2.7em;
+    width: 3em;
   }
 
   .instagram{
