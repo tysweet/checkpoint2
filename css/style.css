@@ -58,6 +58,16 @@ p{
   font-size: 0.9em;
 }
 
+#react .panel{
+  background-color: white;
+  box-shadow: 0 0 2em white;
+}
+
+#hacker .panel{
+  background-color: white;
+  box-shadow: 0 0 2em white;
+}
+
 #bio .panel{
   background-color: oldlace;
   box-shadow: 0 0 2em oldlace;
