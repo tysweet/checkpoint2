@@ -38,6 +38,16 @@ h1{
   margin-bottom: 70em;
 }
 
+#headerText {
+  color: white;
+  margin-bottom: 20em;
+  /* display: none; */
+}
+
+#headerText a {
+  color: dodgerblue;
+}
+
 .panel{
   margin-bottom: 3em;
   box-shadow: 0 0 1em black;
@@ -56,6 +66,16 @@ h1{
 
 p{
   font-size: 0.9em;
+}
+
+#foaas .panel{
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 2em black;
+}
+
+#foaas h5{
+  color: white;
 }
 
 #react .panel{
