@@ -39,15 +39,17 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row">
-              <div class="header" id="headerText">
-                <div class="col-md-10 col-offset-1 text-center">
-                  <h2>Hello and welcome!  My name is Ty Sweet, and this is my portfolio site.  Below, as with most portfolio sites, you will find examples of things that I have created to give you an idea of what I can do, but this is by no means all of it (I mean, how exciting would command line games be, or very basic Express and MongoDB apps?)  So for a better idea of what I am capable of, please visit my <a href="https://github.com/tysweet" target="_blank">Github profile</a>.  I'm proud of everything I've done, and I hope the examples here show how much I've grown and learned over the last several months.  My contact info, resum&#233;, and social media are listed at the bottom of the page.  I'd love to hear from you!
-                  </h2>
-                </div>
+          <div class="row">
+            <div class="header" id="headerText">
+              <div class="col-md-10 col-md-offset-1 text-center">
+                <h2>Hello and welcome!  My name is Ty Sweet, and this is my portfolio site.  Below, as with most portfolio sites, you will find examples of things that I have created to give you an idea of what I can do, but this is by no means all of it (I mean, how exciting would games on the command line be, or very basic Express and MongoDB apps?)  So for a better idea of what I am capable of, please visit my <a href="https://github.com/tysweet" target="_blank">Github profile</a>.  I'm proud of everything I've done, and I hope the examples here show how much I've grown and learned over the last several months.  My contact info, resum&#233;, and social media are listed at the bottom of the page.  I'd love to hear from you!
+                </h2>
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="col-12" id="notVisible"></div>
 
         <div class="content">
 
@@ -170,27 +172,29 @@
         </div>
 
   <!-- fourth row -->
-        <div class="container-fluid">
+      <div class="card-columns">
+        <div class="container-fluid ">
           <div class="row fourth-row">
 
     <!-- row 4 column 1 -->
-            <div id="bootstrap" class="col-md-4">
-              <div class="panel">
-                <div class="panel-heading">
-                  <a href="https://tysweet.github.io/web-workbook/05week/news-website/index.html" target="_blank">
-                    <img src="./img/bootstrap.png" class="img-responsive" alt="mock-up
-                    of fake news site using bootstrap"></a>
-                </div>
-                <div class="panel-body">
-                  <a href="https://tysweet.github.io/web-workbook/05week/news-website/index.html" target="_blank">
-                    <h5>Envato Tuts+ Report</h5></a>
-                    <p>Mock-up of news site using HTML/CSS and the Bootstrap grid
-                    system.</p>
-                </div>
-              </div>
-            </div>
+    <div id="bio2" class="col-md-4">
+      <div class="panel">
+        <div class="panel-heading">
+          <a href="https://tysweet.github.io/web-workbook/10week/bio-part-2/index.html" target="_blank">
+            <img src="./img/Bio Page 2.png" class="img-responsive" alt="page demonstrating audio/video
+            with controls as well as gradient text and backgrounds and HTML canvas"></a>
+        </div>
+        <div class="panel-body">
+          <a href="https://tysweet.github.io/web-workbook/10week/bio-part-2/index.html" target="_blank">
+            <h5>Bio Page II</h5></a>
+            <p>This was meant to be an updated bio page with recordings of me on it,
+              but I decided it could be just as effective showing random media.  I used HTML/CSS/JavaScript/jQuery as well as radial gradient text and backgrounds and HTML5 canvas (with
+            a changing color bouncing ball!).</p>
+        </div>
+      </div>
+    </div>
 
-    <!-- row 4 column 2 -->
+    <!-- row 4 column 2 with row 5 column 2 nested-->
             <div id="dom" class="col-md-4">
               <div class="panel">
                 <div class="panel-heading">
@@ -206,9 +210,25 @@
                   listed when you hover over them with the mouse.</p>
                 </div>
               </div>
+              <div class="row">
+                <div class="col-md-12" id="customer">
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <a href="https://tysweet.github.io/web-workbook/09week/customer-satisfaction/index.html" target="_blank">
+                        <img src="./img/customer.png" class="img-responsive" alt="Customer satisfaction mock-up"></a>
+                    </div>
+                    <div class="panel-body">
+                      <a href="https://tysweet.github.io/web-workbook/09week/customer-satisfaction/index.html" target="_blank">
+                      <h5>Customer Satisfaction</h5></a>
+                      <p>A simple customer satisfaction form mock-up using HTML/CSS/JavaScript/jQuery.  Pretty simple but
+                        also a lot of fun to put together!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-    <!-- row 4 column 3 -->
+    <!-- row 4 column 3 with row 5 column 3 nested-->
             <div id="dice" class="col-md-4">
               <div class="panel">
                 <div class="panel-heading">
@@ -223,17 +243,8 @@
                   popular dice game.</p>
                 </div>
               </div>
-            </div>
-
-          </div>
-        </div>
-
-      <!-- fifth row -->
-            <div class="container-fluid">
-              <div class="row fifth-row">
-
-        <!-- row 5 column 1 -->
-                <div id="hanoi" class="col-md-4">
+              <div class="row">
+                <div id="hanoi" class="col-md-12">
                   <div class="panel">
                     <div class="panel-heading">
                       <a href="https://tysweet.github.io/web-workbook/09week/towers-of-hanoi/index.html" target="_blank">
@@ -248,43 +259,13 @@
                     </div>
                   </div>
                 </div>
-
-        <!-- row 5 column 2 -->
-                <div id="bio2" class="col-md-4">
-                  <div class="panel">
-                    <div class="panel-heading">
-                      <a href="https://tysweet.github.io/web-workbook/10week/bio-part-2/index.html" target="_blank">
-                        <img src="./img/Bio Page 2.png" class="img-responsive" alt="page demonstrating audio/video
-                        with controls as well as gradient text and backgrounds and HTML canvas"></a>
-                    </div>
-                    <div class="panel-body">
-                      <a href="https://tysweet.github.io/web-workbook/10week/bio-part-2/index.html" target="_blank">
-                        <h5>Bio Page II</h5></a>
-                        <p>This was meant to be an updated bio page with recordings of me on it,
-                          but I decided it could be just as effective showing random media.  I used HTML/CSS/JavaScript/jQuery as well as radial gradient text and backgrounds and HTML5 canvas (with
-                        a changing color bouncing ball!).</p>
-                    </div>
-                  </div>
-                </div>
-
-        <!-- row 5 column 3 -->
-                <div id="customer" class="col-md-4">
-                  <div class="panel">
-                    <div class="panel-heading">
-                      <a href="https://tysweet.github.io/web-workbook/09week/customer-satisfaction/index.html" target="_blank">
-                        <img src="./img/customer.png" class="img-responsive" alt="Customer satisfaction mock-up"></a>
-                    </div>
-                    <div class="panel-body">
-                      <a href="https://tysweet.github.io/web-workbook/09week/customer-satisfaction/index.html" target="_blank">
-                      <h5>Customer Satisfaction</h5></a>
-                      <p>A simple customer satisfaction form mock-up using HTML/CSS/JavaScript/jQuery.  Pretty simple but
-                        also a lot of fun to put together!</p>
-                    </div>
-                  </div>
-                </div>
-
               </div>
             </div>
+
+          </div>
+        </div>
+
+        <br>
 
     <!-- sixth row -->
         <div id="container">
@@ -322,12 +303,15 @@
     </div>
 
     <br>
+    <br>
   <!-- footer -->
     <footer>
       <div>
         <p>&copy;2018 tysweet.com</p>
       </div>
     </footer>
+
+    <br>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

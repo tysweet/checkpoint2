@@ -13,13 +13,9 @@ function myFunction() {
   }
 }
 
-// $(document).scroll(function () {
-//   var x = $(this).scrollTop();
-//   if (x > 550) {
-//       $('#headerText').stop().fadeIn('2000');
-//       // console.log($('#headerText'))
-//   }
-//   // else{
-//   //     $('#headerText').stop().fadeOut('slow');
-//   // }
-// });
+$(document).scroll(function () {
+  var x = $(this).scrollTop();
+  if (x > 750) {
+    $('#headerText').fadeIn('750');
+  }
+});

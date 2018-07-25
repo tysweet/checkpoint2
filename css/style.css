@@ -2,8 +2,7 @@
 
 body{
   background-image: url(../img/metal.jpg);
-  width: 100%;
-  height: 100%;
+  background-size: 120% 200%;
   margin-top: 30em;
 }
 
@@ -39,9 +38,13 @@ h1{
 }
 
 #headerText {
+  display: none;
   color: white;
-  margin-bottom: 20em;
-  /* display: none; */
+}
+
+#notVisible {
+  visibility: hidden;
+  margin-bottom: 40em;
 }
 
 #headerText a {
@@ -64,10 +67,6 @@ h1{
   font-size: 1.2em;
 }
 
-p{
-  font-size: 0.9em;
-}
-
 #foaas .panel{
   background-color: black;
   color: white;
@@ -81,6 +80,10 @@ p{
 #react .panel{
   background-color: white;
   box-shadow: 0 0 2em white;
+}
+
+#hacker {
+  margin-top: 2em;
 }
 
 #hacker .panel{
@@ -105,6 +108,10 @@ p{
 
 #clown h5{
   color: white;
+}
+
+#bieber {
+  margin-top: 2em;
 }
 
 #bieber .panel-body{
@@ -141,6 +148,10 @@ p{
 
 #hanoi .panel{
   box-shadow: 0 0 2em white;
+}
+
+#bio2 {
+  margin-top: 2em;
 }
 
 #bio2 .panel{
