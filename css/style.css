@@ -4,6 +4,7 @@ body{
   background-image: url(../img/metal.jpg);
   background-size: 120% 200%;
   margin-top: 30em;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .header{
@@ -38,12 +39,7 @@ h1{
 }
 
 #headerText {
-  display: none;
   color: white;
-}
-
-#notVisible {
-  visibility: hidden;
   margin-bottom: 40em;
 }
 
@@ -163,7 +159,7 @@ h1{
   box-shadow: 0 0 2em white;
 }
 
-.social{
+#social{
   display: flex;
   justify-content: space-around;
   width: 40%;
@@ -234,7 +230,7 @@ footer{
     text-align: center;
   }
 
-  .social{
+  #social{
     width: 60%;
   }
 
@@ -267,7 +263,7 @@ footer{
     text-align: center;
   }
 
-  .social{
+  #social{
     width: 80%;
   }
 }

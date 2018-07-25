@@ -12,10 +12,3 @@ function myFunction() {
     header.classList.remove('sticky');
   }
 }
-
-$(document).scroll(function () {
-  var x = $(this).scrollTop();
-  if (x > 750) {
-    $('#headerText').fadeIn('750');
-  }
-});
