@@ -3,7 +3,7 @@
 body{
   background-image: url(../img/metal.jpg);
   background-size: 120% 200%;
-  margin-top: 30em;
+  margin-top: 21em;
   font-family: 'Architects Daughter', cursive;
 }
 
@@ -16,7 +16,24 @@ body{
 h1{
   font-family: Great Vibes;
   font-weight: bold;
-  font-size: 12em;
+  font-size: 18em;
+  color: white;
+  text-align: center
+}
+
+h2{
+  font-family: Great Vibes;
+  font-weight: bold;
+  font-size: 3em;
+  color: white;
+  text-align: center
+}
+
+h6{
+  float: right;
+  font-family: Great Vibes;
+  font-weight: bold;
+  font-size: 2em;
   color: white;
 }
 
@@ -36,6 +53,18 @@ h1{
 
 .bottomSpace{
   margin-bottom: 70em;
+}
+
+.jack {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+h3{
+  font-size: 2em;
 }
 
 #headerText {
@@ -260,6 +289,16 @@ footer{
 
   h1{
     font-size: 6em;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 2em;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 2em;
     text-align: center;
   }
 
